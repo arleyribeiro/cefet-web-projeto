@@ -41,6 +41,7 @@ header a{
 
 header a:hover{
 	text-decoration: underline;
+	color: #fff;
 }
 
 header a:link, a:visited{
@@ -111,56 +112,6 @@ header a:first-child{
 	border: 1px solid #000;
 	/*width: 600px;*/
 	position: relative;
-}
-
-form {
-	display: table;
-	padding: 10px;
-	border: thin dotted #7e7e7e;
-	background-color: #e1ceb8;
-	text-align: center;
-	margin: 10px auto;
-	/*width: 250px;
-	position: absolute;
-	top: 0px;
-	right: 10px;*/
-}
-
-
-
-div .tableRow {
-	display: table-row;
-	position: relative;
-}
-
-div.tableRow p {
-	display: table-cell;
-	vertical-align: top;
-	padding: 3px;
-}
-
-div.tableRow p:first-child {
-	text-align: right;
-}
-
-div #newUserRegister {
-	border: 1px solid gray;
-	position: relative;	
-	margin: 10px auto;
-	/*right: 10px;
-	top: 0px;*/
-}
-
-div #newUserRegister p{
-	margin: auto;
-}
-
-div #login {
-	border: 1px solid blue;
-}
-
-img {
-	width: 80px;
 }
 
 /*------------------RODAPÉ----------------------*/
