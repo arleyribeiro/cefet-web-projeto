@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8">
   <title>Register</title>
-  <link rel="stylesheet" href="../css/style_index.css">
+  <link rel="stylesheet" href="../css/style_register.css">
 </head>
 <body>
-    <div id="recipiente">
-      <div id="cadastro">
+    <div class="container">
+      <div id="register">
           	<form>
           		<div class="tableRow">
           			<h2>Insert your Information</h2>
@@ -28,7 +28,7 @@
 				</div>
 
 				<div class="tableRow">
-	          		<p> confirm e-mail: </p>
+	          		<p> Confirm e-mail: </p>
 					<p> <input type="email" name="confirm-email" value=""> </p>	
 				</div>
 
@@ -47,15 +47,27 @@
 					<p> <input type="password" name="confirm-password" value=""> </p>	
 				</div>
 
-				<div class="tableRow">
-	          		<input type="checkbox" name="spice" value="">
-	          		<p>I agree the terms.</p>
+				<div class="tableRow teste">
+	          		<p id="termCompromise"><a href="#">I agree the terms.</a></p>
+	          		<input id="check" type="checkbox" name="spice" value="">
+
+	          		<input id="button" type="submit" name="theButton">
 				</div>
 			
-				<div class="tableRow">
-					<input type="submit">
+				<div class="tableRow teste2">
+					
 				</div>			
           	</form>
     	</div>
+
+    <footer>
+	  <div class="container">
+	    <ul class="social">
+	      <li><a href="http://facebook.com/#">Facebook</a></li>
+	      <li><a href="http://twitter.com/#">Twitter</a></li>
+	      <li><a href="http://plus.google.com/#">Google+</a></li>
+	    </ul>
+	  </div>
+	</footer>
 </body>
 </html>
