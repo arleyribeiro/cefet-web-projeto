@@ -4,24 +4,25 @@ body {
 
 }
 p, h2{
-	color: #fff;
-	font-family: 'Helvetica';
+	color: #0099FF;
+	font-family: 'Helvetica', sans-serif;
 	/*text-shadow: 1px 1px #696969;*/
 }
 
 h2 {
 	font-size: 36px;
 	margin: 0 auto;
-	margin-left: 2%;
-	margin-right: 2%;
-	text-shadow: 2px 2px #696969;
+	text-align: center;
+	text-shadow: 1px 1px #fff;
 }
+
 #register {
-	border: 1px solid white;
+	/*border: 1px solid white;*/
 	padding: 10px;
 	margin: auto;
 	width: 450px;
 	box-sizing: border-box;
+	background-color: #111; 
 }
 
 .tableRow input{
@@ -57,7 +58,7 @@ h2 {
 
 a:link {
 	text-decoration: none;
-	color: #00BFFF;
+	color: #0099FF;
 	font-weight: bold;
 }
 
